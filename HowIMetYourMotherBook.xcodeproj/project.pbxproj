@@ -17,6 +17,8 @@
 		FBE1B2112724814F00A2769C /* HowIMetYourMotherBookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE1B2102724814F00A2769C /* HowIMetYourMotherBookTests.swift */; };
 		FBE1B21B2724814F00A2769C /* HowIMetYourMotherBookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE1B21A2724814F00A2769C /* HowIMetYourMotherBookUITests.swift */; };
 		FBE1B21D2724814F00A2769C /* HowIMetYourMotherBookUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE1B21C2724814F00A2769C /* HowIMetYourMotherBookUITestsLaunchTests.swift */; };
+		FBE1B22A2724835200A2769C /* DetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE1B2292724835200A2769C /* DetailsVC.swift */; };
+		FBE1B22C2724845F00A2769C /* PlayerDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE1B22B2724845F00A2769C /* PlayerDetails.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		FBE1B2162724814F00A2769C /* HowIMetYourMotherBookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HowIMetYourMotherBookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBE1B21A2724814F00A2769C /* HowIMetYourMotherBookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowIMetYourMotherBookUITests.swift; sourceTree = "<group>"; };
 		FBE1B21C2724814F00A2769C /* HowIMetYourMotherBookUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowIMetYourMotherBookUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FBE1B2292724835200A2769C /* DetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsVC.swift; sourceTree = "<group>"; };
+		FBE1B22B2724845F00A2769C /* PlayerDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerDetails.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,11 +108,13 @@
 				FBE1B1F62724814C00A2769C /* AppDelegate.swift */,
 				FBE1B1F82724814C00A2769C /* SceneDelegate.swift */,
 				FBE1B1FA2724814C00A2769C /* ViewController.swift */,
+				FBE1B2292724835200A2769C /* DetailsVC.swift */,
 				FBE1B1FC2724814C00A2769C /* Main.storyboard */,
 				FBE1B2022724814E00A2769C /* Assets.xcassets */,
 				FBE1B2042724814E00A2769C /* LaunchScreen.storyboard */,
 				FBE1B2072724814E00A2769C /* Info.plist */,
 				FBE1B1FF2724814C00A2769C /* HowIMetYourMotherBook.xcdatamodeld */,
+				FBE1B22B2724845F00A2769C /* PlayerDetails.swift */,
 			);
 			path = HowIMetYourMotherBook;
 			sourceTree = "<group>";
@@ -265,6 +271,8 @@
 				FBE1B1FB2724814C00A2769C /* ViewController.swift in Sources */,
 				FBE1B1F72724814C00A2769C /* AppDelegate.swift in Sources */,
 				FBE1B1F92724814C00A2769C /* SceneDelegate.swift in Sources */,
+				FBE1B22A2724835200A2769C /* DetailsVC.swift in Sources */,
+				FBE1B22C2724845F00A2769C /* PlayerDetails.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
